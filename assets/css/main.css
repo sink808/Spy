@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
+header{
+	color: rgba(255, 255, 255, 0.95);
+    background-image: url("../../images/ko5815.jpg");
+    background-position:center;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0 2em 0;
+    margin: 40px 0 20px 0;
+}
+header h1{
+    font-family: 微軟正黑體;
+    font-weight:bold;
+    font-size: 45px;
+}
+
+.inner{
+	text-align:center;
+}
+.content{
+    padding-top: 5px;
+    margin: 20px;
+    text-align:center;
+}
+
+.content p{
+	font-size:16px;
+}
+.enter{
+	display:inline;
+    height: 32px;
+}
+.anwser{
+	display:inline;
+    height: 32px;
+    width: 222px;
+	margin-top:3px; 
+}
+.people_num{
+	display:inline;
+    height: 32px;
+}
+.rule{
+	margin: 67px;
+}
+.rule p{
+    text-align:left;
+}
+
+
+footer {
+    font-size: 12px;
+    padding: 5px ;
+    margin-left: 82px ;
+}
+
+footer li{
+	list-style-type:none;
+}
+footer ul{
+	padding: 0px;
+}
+footer .col-sm-4{
+	min-width: 290px;
+
+}
+
+footer p{
+	text-align: left;
+}
+
+@media (max-width: 450px) {
+
+    footer {
+        margin-left: 37px ;
+    }
+
+    .rule{
+	    margin: 22px;
+    }
+
+}

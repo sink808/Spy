@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html lang="zh-Hant">
+	<head>
+		<title>間諜危機</title>
+        <link rel="Shortcut Icon" type="image/x-icon" href="images/Spy-128.png" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <script src="assets/js/jquery-3.1.1.min.js"></script>
+        <script src="assets/js/click.js"></script>
+
+	</head>
+	<body>
+		<!-- Header -->
+			<header class="container" id="header">
+				<div class="inner">
+					<h1>間諜危機</h1>
+				</div>
+			</header>
+            <div class="content">
+                <div class="container">
+                    <h3>玩家人數</h3>
+                    <input type="text" class="people_num" name="people_num">
+                    <button class="enter" onclick="Start()">確定</button>
+                </div>
+                <div>
+                    <button class="anwser" onclick="Publish()">公布答案</button>
+                </div>
+                <h3>可能的地點</h3>
+                    <p>海灘上&nbsp;&nbsp;&nbsp;主題樂園&nbsp;&nbsp;&nbsp;高中教室&nbsp;&nbsp;&nbsp;餐廳&nbsp;&nbsp;&nbsp;SPA中心&nbsp;&nbsp;&nbsp;銀行&nbsp;&nbsp;&nbsp;火車上<br>嘉年華會&nbsp;&nbsp;&nbsp;動物園&nbsp;&nbsp;&nbsp;馬戲團&nbsp;&nbsp;&nbsp;旅館裡&nbsp;&nbsp;&nbsp;賭場&nbsp;&nbsp;&nbsp;飛機上&nbsp;&nbsp;&nbsp;潛水艇裡<br>軍營&nbsp;&nbsp;&nbsp;游泳池&nbsp;&nbsp;&nbsp;遠洋郵輪&nbsp;&nbsp;&nbsp;醫院&nbsp;&nbsp;&nbsp;超市&nbsp;&nbsp;&nbsp;購物中心&nbsp;&nbsp;&nbsp;大學實驗室<br>警察局&nbsp;&nbsp;&nbsp;電影院&nbsp;&nbsp;&nbsp;劇院&nbsp;&nbsp;&nbsp;十字軍軍團&nbsp;&nbsp;&nbsp;夜店&nbsp;&nbsp;&nbsp;電影工作室&nbsp;&nbsp;&nbsp;教堂</p>
+                <div class="rule">
+                    <h3>遊戲規則</h3>
+                    <p>在所有玩家中有一名玩家是間諜，除了間諜以外的玩家都會獲得一個共同地點。計時十分鐘(玩家可自行決定時間長度)，遊戲開始時，由一名玩家向自己左手邊的玩家開始提問，用問問題的方式找出不知道地點的間諜。問題的內容和長短皆沒有限制，例如：「那裏在交通工具上嗎？」。所有玩家輪完一輪之後，可自由向其他玩家不斷提問，而回答問題者會成為下一個問題的發問者。<br>遊戲結束有三種情況<br>1.時間到<br>當時間到了之後所有人進行投票，投票結果不是間諜，間諜獲勝。若結果正確進行間諜聲明。<br>2.發起指認<br>在時間到之前，一回合一人限一次，發起指認的玩家指出一名玩家是間諜，投票結果過半，提前結束回合，若結果正確進行間諜聲明。指認失敗兩次的話，間諜獲勝。若投票未通過則繼續遊戲，此玩家當回合將不可再指認。<br>3.間諜聲明<br>間諜可在任何時間提出聲明，猜測起他人所得知的地點，猜對間諜獲勝，猜錯則一般人獲勝。在1.2.的情況結束遊戲，間諜被識破身分時，間諜依然可以猜測地點，只要猜對間諜便可以反敗為勝。<br></p>
+                    </div>
+                    
+
+
+            </div>
+
+
+        <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <p>&copy; 2016 Untitled Design</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul>
+                            <li><p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p></li>
+                            <li><p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p></li>
+                            <li><p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+
+	</body>
+</html>

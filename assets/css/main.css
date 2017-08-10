@@ -3,6 +3,7 @@ header{
 	color: rgba(255, 255, 255, 0.95);
     background-image: url("../../images/ko5815.jpg");
     background-position:center;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     padding: 2em 0 2em 0;
@@ -41,7 +42,8 @@ header h1{
     height: 32px;
 }
 .rule{
-	margin: 67px;
+	max-width: 1600px;
+	margin: 67px ;
 }
 .rule p{
     text-align:left;
@@ -49,9 +51,10 @@ header h1{
 
 
 footer {
+	max-width: 1600px;
     font-size: 12px;
     padding: 5px ;
-    margin-left: 82px ;
+    margin: 82px ;
 }
 
 footer li{
@@ -72,11 +75,25 @@ footer p{
 @media (max-width: 450px) {
 
     footer {
-        margin-left: 37px ;
+        margin: 37px ;
     }
 
     .rule{
 	    margin: 22px;
+    }
+
+}
+
+@media (min-width: 1620px) {
+
+    footer {
+
+        margin: 0 auto;
+    }
+
+    .rule{
+
+	    margin: 0 auto ;
     }
 
 }
